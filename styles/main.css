@@ -43,6 +43,10 @@ body {
     height: 400px
 }
 
+.divide03 {
+    height: 800px
+}
+
 .header {
     padding: 15px;
     position: fixed;
@@ -91,10 +95,6 @@ body {
     text-align: center;
 }
 
-#animate01 {
-    opacity: 1;
-}
-
 .ebony-image {
     text-align: center;
     height: 200px;
@@ -110,14 +110,8 @@ body {
     text-align: center;
 }
 
-.ebony-text01 {
-    opacity: 0;
-}
-
+.ebony-text01,
+.ebony-text02,
 .ebony-text03 {
-    opacity: 0;
-}
-
-.ebony-text02 {
     opacity: 0;
 }

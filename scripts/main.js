@@ -91,13 +91,25 @@
      .addIndicators()
      .addTo(controller);
 
- // ebony照片变亮
+ // ebony text01 变亮
  new ScrollMagic.Scene({
          triggerElement: "#trigger05",
-         duration: 300,
-         offset: 0
+         duration: 150,
+         offset: -300
      })
-     .setTween("ebony-text03", {
+     .setTween(".ebony-text02", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ // ebony text01 变亮
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger05",
+         duration: 150,
+         offset: -300
+     })
+     .setTween(".ebony-text03", {
          opacity: 1
      })
      .addIndicators()

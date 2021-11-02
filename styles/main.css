@@ -226,5 +226,6 @@ body {
     padding: 40px 80px;
     opacity: 0;
     position: relative;
-    top: -200px
+    top: -200px;
+    color: #ffffff;
 }

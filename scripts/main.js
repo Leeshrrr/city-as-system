@@ -114,3 +114,171 @@
      })
      .addIndicators()
      .addTo(controller);
+
+ // more events 变亮
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 250,
+         offset: -350
+     })
+     .setTween(".more-events", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ //more events 停留
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 2500,
+         offset: -50
+     })
+     .setPin("#pin04")
+     .addIndicators()
+     .addTo(controller);
+
+
+ // image pile 变亮
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 70
+     })
+     .setTween("#f01", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 270
+     })
+     .setTween("#f03", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 470
+     })
+     .setTween("#f04", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 670
+     })
+     .setTween("#f05", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 870
+     })
+     .setTween("#n02", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 1070
+     })
+     .setTween("#n03", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 1270
+     })
+     .setTween("#n04", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 1470
+     })
+     .setTween("#n05", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 1670
+     })
+     .setTween("#s01", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 1870
+     })
+     .setTween("#s02", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 2070
+     })
+     .setTween("#s04", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 150,
+         offset: 2270
+     })
+     .setTween("#s05", {
+         opacity: 1
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 400,
+         offset: 2500
+     })
+     .setTween(".image-pile", {
+         opacity: 0
+     })
+     .addIndicators()
+     .addTo(controller);

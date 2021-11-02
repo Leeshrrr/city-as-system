@@ -10,7 +10,7 @@
      .setTween(".cover", {
          opacity: 0
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  // 标题消失
@@ -22,7 +22,7 @@
      .setTween(".cover-image", {
          opacity: 0
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  // ebony照片停留
@@ -32,7 +32,7 @@
          offset: 350
      })
      .setPin("#pin01")
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  // ebony照片变亮
@@ -44,7 +44,7 @@
      .setTween(".ebony-image", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  // ebony照片变暗
@@ -56,7 +56,7 @@
      .setTween(".ebony-image", {
          opacity: 0.5
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  //ebony图片介绍停留
@@ -66,7 +66,7 @@
          offset: -150
      })
      .setPin("#pin02")
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  // ebony text01 变亮
@@ -78,7 +78,7 @@
      .setTween(".ebony-text01", {
          opacity: 1
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  // ebony text01 停留
@@ -88,7 +88,7 @@
          offset: 290
      })
      .setPin("#pin03")
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  // ebony text01 变亮
@@ -100,7 +100,7 @@
      .setTween(".ebony-text02", {
          opacity: 1
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  // ebony text01 变亮
@@ -112,7 +112,7 @@
      .setTween(".ebony-text03", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  // more events 变亮
@@ -124,7 +124,7 @@
      .setTween(".more-events", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  //more events 停留
@@ -134,7 +134,7 @@
          offset: -50
      })
      .setPin("#pin04")
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
 
@@ -147,7 +147,7 @@
      .setTween("#f01", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
 
@@ -159,7 +159,7 @@
      .setTween("#f03", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -170,7 +170,7 @@
      .setTween("#f04", {
          opacity: 1
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -181,7 +181,7 @@
      .setTween("#f05", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -192,7 +192,7 @@
      .setTween("#n02", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -203,7 +203,7 @@
      .setTween("#n03", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -214,7 +214,7 @@
      .setTween("#n04", {
          opacity: 1
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -225,7 +225,7 @@
      .setTween("#n05", {
          opacity: 1
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -236,7 +236,7 @@
      .setTween("#s01", {
          opacity: 1
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -247,7 +247,7 @@
      .setTween("#s02", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -258,7 +258,7 @@
      .setTween("#s04", {
          opacity: 1
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -269,7 +269,7 @@
      .setTween("#s05", {
          opacity: 1
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  // image pile 变暗
@@ -281,7 +281,7 @@
      .setTween(".image-pile", {
          opacity: 0
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
 
@@ -295,7 +295,7 @@
          backgroundColor: "#EEEAE7"
 
      })
-     .addIndicators()
+     // .addIndicators()
      .addTo(controller);
 
  // 字 和 header边框 变浅色
@@ -308,7 +308,7 @@
          color: "#000000"
 
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);
 
  new ScrollMagic.Scene({
@@ -320,5 +320,5 @@
          borderBottomColor: "#000000"
 
      })
-     .addIndicators()
+     //.addIndicators()
      .addTo(controller);

@@ -272,6 +272,7 @@
      .addIndicators()
      .addTo(controller);
 
+ // image pile 变暗
  new ScrollMagic.Scene({
          triggerElement: "#trigger06",
          duration: 400,
@@ -279,6 +280,45 @@
      })
      .setTween(".image-pile", {
          opacity: 0
+     })
+     .addIndicators()
+     .addTo(controller);
+
+
+ // 背景变浅色
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 1800,
+         offset: 470
+     })
+     .setTween("body", {
+         backgroundColor: "#EEEAE7"
+
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ // 字 和 header边框 变浅色
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 0,
+         offset: 1270
+     })
+     .setTween("body", {
+         color: "#000000"
+
+     })
+     .addIndicators()
+     .addTo(controller);
+
+ new ScrollMagic.Scene({
+         triggerElement: "#trigger06",
+         duration: 0,
+         offset: 1270
+     })
+     .setTween(".header", {
+         borderBottomColor: "#000000"
+
      })
      .addIndicators()
      .addTo(controller);

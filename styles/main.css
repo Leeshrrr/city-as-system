@@ -24,15 +24,24 @@ body {
     padding: 0%;
     margin: 0%;
     font-family: futuraMedium;
-    letter-spacing: 0.04em;
+    /* letter-spacing: 0.04em; */
 }
 
 .main-text {
     font-family: merri;
     font-size: 21px;
     line-height: 32px;
-    width: 50%;
+    width: 40%;
     margin: 20px auto 20px;
+}
+
+.sub-title {
+    font-family: futuraBold;
+    line-height: 60px;
+    font-size: 72px;
+    width: 40%;
+    margin: 20px auto 20px;
+    text-align: left;
 }
 
 .divide01 {
@@ -55,6 +64,7 @@ body {
     font-family: futuraMedium;
     letter-spacing: 0.04em;
     font-size: 30px;
+    /* background-color: #000000; */
 }
 
 .menu {
@@ -104,7 +114,6 @@ body {
 
 .ebony {
     position: relative;
-    padding: -1000;
     font-family: futuraBold;
     font-size: 72px;
     text-align: center;
@@ -227,4 +236,128 @@ body {
     position: relative;
     top: -200px;
     color: #ffffff;
+    /* width: 125%;
+    left: -25%; */
+}
+
+.harm-text01 {
+    opacity: 0;
+}
+
+.active-highlight {
+    font-family: futuraBold;
+    font-size: 30px;
+    color: #8f0909;
+    transition: .8s;
+}
+
+.underline01,
+.underline02 {
+    background-image: linear-gradient(rgba(143, 9, 9, 0.5), rgba(143, 9, 9, 0.5));
+    background-repeat: no-repeat;
+    background-size: 0% 38%;
+    background-position: 0 100%;
+}
+
+.active-underline {
+    background-size: 100% 38%;
+    transition: .5s;
+}
+
+.data-container01 {
+    position: relative;
+}
+
+.death-image01 {
+    position: absolute;
+    top: 0;
+    opacity: 1;
+}
+
+.death-image02 {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.death-image03 {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.death-image04 {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.death-introduction-container {
+    position: relative;
+}
+
+.death-introduction {
+    background-color: rgba(238, 234, 231, 0.8);
+    padding: 40px 80px;
+    position: absolute;
+    /* width: 125%;
+    left: -25%; */
+}
+
+#d01 {
+    top: -3000px;
+}
+
+#d02 {
+    top: -1800px;
+}
+
+#d03 {
+    top: -500px;
+}
+
+.harm-text02 {
+    opacity: 0;
+}
+
+li.main-text {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.house {
+    position: relative;
+}
+
+#house-text {
+    top: 300;
+    opacity: 1;
+}
+
+.divide04 {
+    height: 500px
+}
+
+#h01 {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 80%;
+    left: 10%;
+}
+
+#h02 {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 80%;
+    left: 10%;
+}
+
+#h03 {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    width: 80%;
+    left: 10%;
 }

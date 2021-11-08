@@ -531,6 +531,29 @@
          // .addIndicators()
          .addTo(controller);
 
+     //in danger text 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger13",
+             duration: 1300,
+             offset: 350
+         })
+         .setPin("#pin11")
+         .addIndicators()
+         .addTo(controller);
+
+     // harm text02 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger13",
+             offset: 300
+         })
+         .setTween(".in-danger-text", {
+             opacity: 1
+
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+
      // house image 变换
      {
          new ScrollMagic.Scene({

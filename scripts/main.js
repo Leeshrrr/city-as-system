@@ -380,10 +380,10 @@
      new ScrollMagic.Scene({
              triggerElement: "#trigger09",
              duration: 3800,
-             offset: 400
+             offset: 310
          })
          .setPin("#pin07")
-         //     .addIndicators()
+         .addIndicators()
          .addTo(controller);
 
 
@@ -393,24 +393,12 @@
                  triggerElement: "#trigger09",
                  offset: 700
              })
-             .setTween(".death-image01", {
-                 opacity: 0
-
-             })
-             // .addIndicators()
-             .addTo(controller);
-
-         new ScrollMagic.Scene({
-                 triggerElement: "#trigger09",
-                 offset: 700
-             })
-             .setTween(".death-image02", {
+             .setTween("#by-all-causes-label", {
                  opacity: 1
 
              })
-             //.addIndicators()
+             .addIndicators()
              .addTo(controller);
-
 
          new ScrollMagic.Scene({
                  triggerElement: "#trigger09",

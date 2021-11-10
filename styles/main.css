@@ -18,6 +18,10 @@
     src: url("../fonts/Merriweather-Regular.ttf");
 }
 
+* {
+    box-sizing: border-box
+}
+
 body {
     background-color: #000000;
     color: #ffffff;
@@ -57,7 +61,6 @@ body {
 }
 
 .header {
-    padding: 15px;
     position: fixed;
     border-bottom: 2px dashed #FFFFFF;
     width: 100%;
@@ -65,25 +68,22 @@ body {
     letter-spacing: 0.04em;
     font-size: 30px;
     /* background-color: #000000; */
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px
 }
 
-.menu {
-    float: left;
-    margin-left: 15px;
-}
+.menu {}
 
 .title {
-    float: left;
-    margin-left: 31%;
     font-family: futuraBold;
     letter-spacing: 0em;
     font-size: 36px;
 }
 
-.about {
-    float: right;
-    margin-right: 50px;
-}
+.about {}
 
 .cover-image {
     position: absolute;
@@ -266,6 +266,7 @@ body {
 
 .data-container01 {
     position: relative;
+    border: crimson 2px solid;
 }
 
 .death-image01 {
@@ -373,11 +374,31 @@ li.main-text {
     left: 10%;
 }
 
-.death-rate-svg {
-    width: 60%;
+.svg-holder {
+    position: absolute;
+    width: 65%;
+    left: 23.8%;
+    border: crimson 2px solid;
+}
+
+.st1222-st1223 {
     font-family: futuraMedium;
+    font-size: 21px;
 }
 
 #lead-dots {
-    fill: cornsilk;
+    opacity: 1;
+    fill: aquamarine;
+}
+
+#by-all-causes-label {
+    opacity: 0;
+}
+
+#other-diseases-label {
+    opacity: 0;
+}
+
+#lead-related-label {
+    opacity: 0;
 }

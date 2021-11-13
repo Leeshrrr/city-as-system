@@ -383,7 +383,7 @@
              offset: 310
          })
          .setPin("#pin07")
-         .addIndicators()
+         // .addIndicators()
          .addTo(controller);
 
 
@@ -397,7 +397,7 @@
                  opacity: 1
 
              })
-             .addIndicators()
+             // .addIndicators()
              .addTo(controller);
 
          new ScrollMagic.Scene({
@@ -522,11 +522,11 @@
      //in danger text 停留
      new ScrollMagic.Scene({
              triggerElement: "#trigger13",
-             duration: 1300,
-             offset: 350
+             duration: 500,
+             offset: 330
          })
          .setPin("#pin11")
-         .addIndicators()
+         //.addIndicators()
          .addTo(controller);
 
      // harm text02 变亮
@@ -603,5 +603,40 @@
 
 
      }
+
+     //map 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger14",
+             duration: 500,
+             offset: 400
+         })
+         .setPin("#pin12")
+         .addIndicators()
+         .addTo(controller);
+
+     //map 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger14",
+             duration: 300,
+             offset: -200
+         })
+         .setTween(".map-container", {
+             opacity: 1
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+     //map 变暗
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger14",
+             duration: 300,
+             offset: 1000
+         })
+         .setTween(".map-container", {
+             opacity: 0
+         })
+         // .addIndicators()
+         .addTo(controller);
+
 
  }

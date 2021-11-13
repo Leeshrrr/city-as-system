@@ -60,6 +60,10 @@ body {
     height: 600px
 }
 
+.divide05 {
+    height: 300px;
+}
+
 .header {
     position: fixed;
     border-bottom: 2px dashed #FFFFFF;
@@ -376,9 +380,11 @@ li.main-text {
 
 .svg-holder {
     position: absolute;
+    top: 0;
     width: 65%;
     left: 23.8%;
     border: crimson 2px solid;
+    fill: green;
 }
 
 .st1222-st1223 {

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: futuraMedium;
+    src: url("../fonts/Futura\ LT\ Condensed\ Medium.ttf");
+}
+
+
+/* body {
+    background-color: #eeeae7;
+} */
+
+.map-container {
+    position: relative;
+    /* border: chartreuse 2px solid; */
+    opacity: 0;
+}
+
+.map-holder {
+    position: absolute;
+    left: 3%;
+    /* border: cadetblue 2px solid; */
+    fill: rgb(255, 251, 244);
+    stroke: white;
+    stroke-width: 0.05px;
+    width: 100%;
+    display: block;
+}
+
+.information-holder {
+    position: absolute;
+    width: 370px;
+    height: 800px;
+    background-color: rgba(255, 255, 255, 0.5);
+    top: 30px;
+    right: 5%;
+    text-align: center;
+    font-family: futuraMedium;
+    letter-spacing: 0.02em;
+    font-size: 30px;
+}
+
+.county-name {
+    padding: 29px 0px;
+    color: #8A1D2E;
+    font-size: 54px;
+}
+
+.dark-red {
+    color: #8A1D2E;
+}
+
+.high-number {
+    color: #8A1D2E;
+    font-size: 48px;
+}
+
+.high-rate {
+    color: #8A1D2E;
+    font-size: 48px;
+    margin: 10px 0px;
+}
+
+.chart-title {
+    font-size: 16px;
+}
+
+.tested-number {
+    color: #8A1D2E;
+}
+
+.children-population {
+    color: #8A1D2E;
+    font-size: 48px;
+    margin: 10px 0px;
+}
+
+.chart-container {
+    position: relative;
+    height: 180px;
+    width: 80%;
+    /* border: rgb(99, 64, 64) 2px solid; */
+    margin: auto;
+}
+
+.chart-holder {
+    position: absolute;
+    bottom: 0;
+}
+
+#r01,
+#r02,
+#r03,
+#r04,
+#r05,
+#r06 {
+    transition-duration: 0.5s;
+}

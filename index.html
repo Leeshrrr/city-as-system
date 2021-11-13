@@ -14,6 +14,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.velocity.min.js" integrity="sha512-ulK7pbTIY9j6WjPyRImdSqhubR5JN+KRrpCCSalyjqImnZeloOHjVLuMVux4QHte+dtApVNFJDYO4FTCvLa8yA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/hahaha.css">
 
 </head>
 
@@ -132,11 +135,14 @@
     <div id="trigger09"></div>
 
     <div class="data-container01" id="pin07">
-        <div class="svg-holder"></div>
-        <!-- <img class="death-image01" src="images/deathrate1.png" width=100% alt="">
-        <img class="death-image02" src="images/deathrate2.png" width=100% alt="">
-        <img class="death-image03" src="images/deathrate3.png" width=100% alt="">
-        <img class="death-image04" src="images/deathrate4.png" width=100% alt=""> -->
+        <div class="svg-holder">
+            <!-- 
+            <img class="death-image01" src="images/deathrate1.png" width=100% alt="">
+            <img class="death-image02" src="images/deathrate2.png" width=100% alt="">
+            <img class="death-image03" src="images/deathrate3.png" width=100% alt="">
+            <img class="death-image04" src="images/deathrate4.png" width=100% alt=""> -->
+
+        </div>
 
 
 
@@ -239,8 +245,7 @@
         </div>
         <div class="in-danger-text">
             <div class="main-text">
-                However, despite the ongoing fight against lead, high blood lead rates continue to affect children. Areas of high lead exposure risk remain throughout America’s largest and richest city, an exploration of blood testing data found. In the first examination
-                of its kind, reporters obtained New York childhood blood testing data down to the census tract level – neighborhood areas with some 4,000 residents apiece. In densely populated New York, a tract often covers several square blocks.
+                However, despite the ongoing fight against lead, high blood lead rates continue to affect children. Areas of high lead exposure risk remain throughout America’s largest and richest city, an exploration of blood testing data found.
             </div>
 
             <div class="main-text">
@@ -250,12 +255,64 @@
         </div>
 
     </div>
-    <img src="images/Group 9.png" width="90%" style="margin:auto" alt="">
+    <div class="divide05"></div>
+    <div id="trigger14"></div>
+    <div class="map-container" id="pin12">
 
+        <div class="map-holder"></div>
+
+        <div class="information-holder">
+
+            <div class="county-name">
+                Clinton County
+
+            </div>
+            <div class="chart-title">Number of children with high BLL</div>
+            <div class="chart-container">
+                <div class="chart-holder"></div>
+            </div>
+
+            <br>
+            <div>
+                There are
+            </div>
+            <div class="children-population">
+                4718
+            </div>
+
+            <div>
+                children live in
+            </div>
+            <div class="dark-red">
+                Clinton,
+            </div>
+            <div>
+                <span class="tested-number">1252</span> are tested, and
+            </div>
+
+            <div class="high-rate">
+                0.4792%
+            </div>
+            <div>
+                of them are
+            </div>
+
+            <div>
+                suffering from
+            </div>
+            <div>
+                high BLL.
+            </div>
+
+        </div>
+    </div>
+
+    <script src="scripts/loadMapData.js"></script>
+    <script src="scripts/hahaha.js"></script>
 
 
     <div class="divide01"></div>
-
+    <div class="divide01"></div>
     <div id="trigger11"></div>
     <div id="pin09">
         <div class="sub-title">

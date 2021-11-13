@@ -1,0 +1,12 @@
+<svg width="289" height="149" viewBox="0 0 289 149" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="chart">
+<rect id="r03" x="112" width="30"  fill="#602A1F"/>
+<rect id="r04" x="149"  width="30" fill="#AD3B34"/>
+<rect id="r05" x="186"  width="30" fill="#8F483C"/>
+<rect id="r06" x="224"  width="30"  fill="#783027"/>
+<rect id="r01" x="37" width="30"  fill="#893838"/>
+<rect id="r02" x="75"  width="30" fill="#8A1D2E"/>
+<path id="line" d="M0 143L288 143.5" stroke="#A8A8A8" stroke-width="0.5"/>
+<path id="arrow" d="M282 139L288 143.5L282 148" stroke="#A8A8A8" stroke-width="0.5"/>
+</g>
+</svg>

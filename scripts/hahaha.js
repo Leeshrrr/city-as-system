@@ -34,7 +34,7 @@ window.onload = function() {
         const rate = document.querySelector(".high-rate");
         const tested = document.querySelector(".tested-number");
 
-        console.log(mapData[i].bll5to9 / mapData[i].testedNum * 1000)
+        //console.log(mapData[i].bll5to9 / mapData[i].testedNum * 1000)
 
 
 

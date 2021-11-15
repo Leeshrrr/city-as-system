@@ -380,7 +380,7 @@
      new ScrollMagic.Scene({
              triggerElement: "#trigger09",
              duration: 3800,
-             offset: 310
+             offset: 400
          })
          .setPin("#pin07")
          // .addIndicators()
@@ -393,7 +393,18 @@
                  triggerElement: "#trigger09",
                  offset: 700
              })
-             .setTween("#by-all-causes-label", {
+             .setTween(".death-image01", {
+                 opacity: 0
+
+             })
+             // .addIndicators()
+             .addTo(controller);
+
+         new ScrollMagic.Scene({
+                 triggerElement: "#trigger09",
+                 offset: 700
+             })
+             .setTween(".death-image02", {
                  opacity: 1
 
              })
@@ -509,11 +520,93 @@
          // .addIndicators()
          .addTo(controller);
 
+     // disease image 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger10",
+             offset: 1000
+         })
+         .setTween(".p-holder", {
+             opacity: 1
+
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+
+     // disease image 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger10",
+             offset: 1200
+         })
+         .setTween(".turn01", {
+             opacity: 0
+         })
+         //.addIndicators()
+         .addTo(controller);
+
+
+     //harm text03 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger15",
+             duration: 1200,
+             offset: 300
+         })
+         .setPin("#pin13")
+         //.addIndicators()
+         .addTo(controller);
+
+     // harm text03 下划线
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger15",
+             offset: 200
+         })
+         .setClassToggle(".underline03", "active-underline")
+         //.addIndicators()
+         .addTo(controller);
+
+
+     // disease image 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger15",
+             offset: 500
+         })
+         .setTween(".list1", {
+             opacity: 1
+
+         })
+         .addIndicators()
+         .addTo(controller);
+
+     // disease image 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger15",
+             offset: 700
+         })
+         .setTween("#cause1", {
+             opacity: 1
+
+         })
+         .addIndicators()
+         .addTo(controller);
+
+     // disease image 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger15",
+             offset: 900
+         })
+         .setTween(".list2", {
+             opacity: 1
+
+         })
+         .addIndicators()
+         .addTo(controller);
+
+
      //source-lead-text text02 停留
      new ScrollMagic.Scene({
              triggerElement: "#trigger12",
              duration: 3100,
-             offset: 450
+             offset: 400
          })
          .setPin("#pin10")
          // .addIndicators()
@@ -529,7 +622,7 @@
          //.addIndicators()
          .addTo(controller);
 
-     // harm text02 变亮
+     // in danger text 变亮
      new ScrollMagic.Scene({
              triggerElement: "#trigger13",
              offset: 300
@@ -540,13 +633,29 @@
          })
          // .addIndicators()
          .addTo(controller);
+     // in danger text 下划线
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger13",
+             offset: 400
+         })
+         .setClassToggle(".underline04", "active-underline")
+         .addIndicators()
+         .addTo(controller);
 
+     // harm text01 变字体
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger13",
+             offset: 400
+         })
+         .setClassToggle(".highlight04", "active-highlight")
+         // .addIndicators()
+         .addTo(controller);
 
      // house image 变换
      {
          new ScrollMagic.Scene({
                  triggerElement: "#trigger12",
-                 offset: 700
+                 offset: 600
              })
              .setTween("#h01", {
                  opacity: 1
@@ -555,11 +664,19 @@
              // .addIndicators()
              .addTo(controller);
 
+         // harm text01 变字体
+         new ScrollMagic.Scene({
+                 triggerElement: "#trigger12",
+                 offset: 600
+             })
+             .setClassToggle(".highlight06", "active-highlight")
+             // .addIndicators()
+             .addTo(controller);
 
 
          new ScrollMagic.Scene({
                  triggerElement: "#trigger12",
-                 offset: 1600
+                 offset: 1300
              })
              .setTween("#h01", {
                  opacity: 0
@@ -570,7 +687,7 @@
 
          new ScrollMagic.Scene({
                  triggerElement: "#trigger12",
-                 offset: 1600
+                 offset: 1300
              })
              .setTween("#h02", {
                  opacity: 1
@@ -579,9 +696,18 @@
              // .addIndicators()
              .addTo(controller);
 
+         // harm text01 变字体
          new ScrollMagic.Scene({
                  triggerElement: "#trigger12",
-                 offset: 2500
+                 offset: 1300
+             })
+             .setClassToggle(".highlight07", "active-highlight")
+             // .addIndicators()
+             .addTo(controller);
+
+         new ScrollMagic.Scene({
+                 triggerElement: "#trigger12",
+                 offset: 2000
              })
              .setTween("#h02", {
                  opacity: 0
@@ -592,7 +718,7 @@
 
          new ScrollMagic.Scene({
                  triggerElement: "#trigger12",
-                 offset: 2500
+                 offset: 2000
              })
              .setTween("#h03", {
                  opacity: 1
@@ -600,7 +726,14 @@
              })
              // .addIndicators()
              .addTo(controller);
-
+         // harm text01 变字体
+         new ScrollMagic.Scene({
+                 triggerElement: "#trigger12",
+                 offset: 2000
+             })
+             .setClassToggle(".highlight08", "active-highlight")
+             // .addIndicators()
+             .addTo(controller);
 
      }
 
@@ -608,22 +741,22 @@
      new ScrollMagic.Scene({
              triggerElement: "#trigger14",
              duration: 500,
-             offset: 400
+             offset: 420
          })
          .setPin("#pin12")
-         .addIndicators()
+         // .addIndicators()
          .addTo(controller);
 
      //map 变亮
      new ScrollMagic.Scene({
              triggerElement: "#trigger14",
-             duration: 300,
-             offset: -200
+             duration: 400,
+             offset: 200
          })
          .setTween(".map-container", {
              opacity: 1
          })
-         // .addIndicators()
+         .addIndicators()
          .addTo(controller);
 
      //map 变暗
@@ -637,6 +770,52 @@
          })
          // .addIndicators()
          .addTo(controller);
+
+
+     //history 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger11",
+             duration: 700,
+             offset: 320
+         })
+         .setPin("#pin09")
+         // .addIndicators()
+         .addTo(controller);
+
+     //history 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger11",
+
+             offset: 450
+         })
+         .setTween(".history-text", {
+             opacity: 1
+         })
+         .addIndicators()
+         .addTo(controller);
+
+     // harm text01 变字体
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger11",
+             offset: 700
+         })
+         .setClassToggle(".highlight05", "active-highlight")
+         // .addIndicators()
+         .addTo(controller);
+
+     //paint text 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger16",
+
+             offset: 50
+         })
+         .setTween(".paint-text01", {
+             opacity: 1
+         })
+         .addIndicators()
+         .addTo(controller);
+
+
 
 
  }

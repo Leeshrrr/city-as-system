@@ -1,0 +1,46 @@
+<svg width="601" height="199" viewBox="0 0 601 199" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="p-image">
+<g id="p-base">
+<line id="Line 1" x1="0.5" y1="29" x2="0.500002" y2="64.2941" stroke="black"/>
+<line id="Line 5" x1="0.5" y1="73.7058" x2="0.500002" y2="109" stroke="black"/>
+<line id="Line 9" x1="0.5" y1="118.412" x2="0.500002" y2="153.706" stroke="black"/>
+<line id="Line 13" x1="0.5" y1="163.118" x2="0.500002" y2="198.412" stroke="black"/>
+<line id="Line 3" x1="14.1172" y1="47.147" x2="1.17601" y2="47.147" stroke="black"/>
+<line id="Line 6" x1="14.1172" y1="91.8528" x2="1.17601" y2="91.8528" stroke="black"/>
+<line id="Line 10" x1="14.1172" y1="136.559" x2="1.17601" y2="136.559" stroke="black"/>
+<line id="Line 14" x1="14.1172" y1="181.265" x2="1.17601" y2="181.265" stroke="black"/>
+<line id="Line 4" x1="600" y1="47.147" x2="587.059" y2="47.147" stroke="black"/>
+<line id="Line 7" x1="600" y1="91.8528" x2="587.059" y2="91.8528" stroke="black"/>
+<line id="Line 11" x1="600" y1="136.559" x2="587.059" y2="136.559" stroke="black"/>
+<line id="Line 15" x1="600" y1="181.265" x2="587.059" y2="181.265" stroke="black"/>
+<line id="Line 2" x1="600.5" y1="29" x2="600.5" y2="64.2941" stroke="black"/>
+<line id="Line 17" x1="600.5" y1="-4.21654e-08" x2="600.5" y2="18" stroke="black"/>
+<line id="Line 18" x1="1.5" y1="-4.21654e-08" x2="1.5" y2="18" stroke="black"/>
+<line id="Line 8" x1="600.5" y1="73.7058" x2="600.5" y2="109" stroke="black"/>
+<line id="Line 12" x1="600.5" y1="118.412" x2="600.5" y2="153.706" stroke="black"/>
+<line id="Line 16" x1="600.5" y1="163.118" x2="600.5" y2="198.412" stroke="black"/>
+<rect id="Rectangle 26" x="14.6172" y="29.5" width="571.941" height="34.2941" fill="white" stroke="black"/>
+<rect id="Rectangle 28" x="14.6172" y="74.2058" width="571.941" height="34.2941" fill="white" stroke="black"/>
+<rect id="Rectangle 30" x="14.6172" y="118.912" width="571.941" height="34.2941" fill="white" stroke="black"/>
+<rect id="Rectangle 32" x="14.6172" y="163.618" width="571.941" height="34.2941" fill="white" stroke="black"/>
+</g>
+<rect id="p01" x="14.6172" y="29.5" width="357.088" height="34.2941" fill="#C1272D" stroke="black"/>
+<rect id="p02" x="14.5" y="74.5" width="79" height="34" fill="#C1272D" stroke="black"/>
+<rect id="p03" x="14.5" y="118.5" width="58" height="35" fill="#C1272D" stroke="black"/>
+<rect id="p04" x="14.5" y="163.5" width="38" height="34" fill="#C1272D" stroke="black"/>
+<g id="p-rate">
+<text id="62.5%" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="22.001" y="51.977">62.5%</tspan></text>
+<text id="8.65%" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="22" y="96.6828">8.65%</tspan></text>
+<text id="7.2%" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="22" y="141.389">7.2%</tspan></text>
+<text id="5.65%" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="22" y="186.095">5.65%</tspan></text>
+</g>
+<g id="p-name">
+<text id="developmental intellectual disability" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="320.462" y="52.0358">developmental intellectual disability</tspan></text>
+<text id="hypertensive heart disease" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="388.945" y="96.7416">hypertensive heart disease</tspan></text>
+<text id="ischemic heart disease" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="417.397" y="141.447">ischemic heart disease</tspan></text>
+<text id="stroke" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="529.232" y="186.153">stroke</tspan></text>
+</g>
+<text id="p-title1" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="21" y="13.977">Percentage caused by lead poisoning</tspan></text>
+<text id="p-title2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="520.514" y="13.977">Disease</tspan></text>
+</g>
+</svg>

@@ -128,9 +128,19 @@ body {
 }
 
 .ebony-text01,
-.ebony-text02,
 .ebony-text03 {
     opacity: 0;
+}
+
+.ebony-text02 {
+    opacity: 0;
+    font-family: futuraBold;
+    font-size: 42px;
+    color: #8f0909;
+}
+
+.ebony-bgc {
+    background-color: #fff;
 }
 
 .image-pile {
@@ -138,6 +148,10 @@ body {
     height: 100%;
     width: 100%;
     top: 0px;
+    opacity: 1;
+}
+
+.delete-image {
     opacity: 1;
 }
 

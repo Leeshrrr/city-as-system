@@ -86,7 +86,7 @@
      new ScrollMagic.Scene({
              triggerElement: "#trigger04",
              duration: 800,
-             offset: 290
+             offset: 320
          })
          .setPin("#pin03")
          //.addIndicators()
@@ -113,6 +113,16 @@
          .setTween(".ebony-text03", {
              opacity: 1
          })
+         // .addIndicators()
+         .addTo(controller);
+
+     // ebony text01 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger05",
+             duration: 400,
+             offset: 0
+         })
+         .setPin(".ebony-text02")
          // .addIndicators()
          .addTo(controller);
 
@@ -326,6 +336,18 @@
          //.addIndicators()
          .addTo(controller);
 
+
+     // 删除图片
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger08",
+             offset: 300
+         })
+         .setTween(".delete-image", {
+             opacity: 0
+
+         })
+         //  .addIndicators()
+         .addTo(controller);
      //harm text01 停留
      new ScrollMagic.Scene({
              triggerElement: "#trigger08",

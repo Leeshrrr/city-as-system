@@ -1,7 +1,7 @@
 async function loadP() {
 
 
-    let praw = await fetch('../svgs/p-image.svg');
+    let praw = await fetch('./svgs/p-image.svg');
     // console.log(praw);
     let ptext = await praw.text();
     document.querySelector('.p-holder').innerHTML = ptext;

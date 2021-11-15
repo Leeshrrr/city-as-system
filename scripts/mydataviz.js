@@ -18,7 +18,7 @@ var svg = d3.select("#my_dataviz")
         "translate(" + margin.left + "," + margin.top + ")");
 
 //Read the data
-d3.csv("../jsons/pipe-filtered.csv", function(data) {
+d3.csv("./jsons/pipe-filtered.csv", function(data) {
 
     // Add X axis
     var x = d3.scaleLinear()

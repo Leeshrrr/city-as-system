@@ -1,5 +1,5 @@
 async function loadMap() {
-    let mapraw = await fetch('../svgs/usa-ny.svg');
+    let mapraw = await fetch('./svgs/usa-ny.svg');
     //console.log(svgraw);
     let maptext = await mapraw.text();
     document.querySelector('.map-holder').innerHTML = maptext;
@@ -10,7 +10,7 @@ async function loadMap() {
 loadMap();
 
 async function loadChart() {
-    let chartraw = await fetch('../svgs/high-chart.svg');
+    let chartraw = await fetch('./svgs/high-chart.svg');
     //console.log(svgraw);
     let charttext = await chartraw.text();
     document.querySelector('.chart-holder').innerHTML = charttext;

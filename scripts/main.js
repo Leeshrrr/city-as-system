@@ -148,6 +148,16 @@
          //.addIndicators()
          .addTo(controller);
 
+     //more events 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger06",
+             duration: 2000,
+             offset: 450
+         })
+         .setPin("#pin05")
+         //.addIndicators()
+         .addTo(controller);
+
 
      // image pile 变亮
      {
@@ -596,7 +606,7 @@
              opacity: 1
 
          })
-         .addIndicators()
+         //.addIndicators()
          .addTo(controller);
 
      // disease image 变亮
@@ -608,7 +618,7 @@
              opacity: 1
 
          })
-         .addIndicators()
+         //.addIndicators()
          .addTo(controller);
 
      // disease image 变亮
@@ -620,7 +630,7 @@
              opacity: 1
 
          })
-         .addIndicators()
+         //.addIndicators()
          .addTo(controller);
 
 
@@ -661,7 +671,7 @@
              offset: 400
          })
          .setClassToggle(".underline04", "active-underline")
-         .addIndicators()
+         // .addIndicators()
          .addTo(controller);
 
      // harm text01 变字体
@@ -778,7 +788,7 @@
          .setTween(".map-container", {
              opacity: 1
          })
-         .addIndicators()
+         //.addIndicators()
          .addTo(controller);
 
      //map 变暗
@@ -813,7 +823,7 @@
          .setTween(".history-text", {
              opacity: 1
          })
-         .addIndicators()
+         //.addIndicators()
          .addTo(controller);
 
      // harm text01 变字体
@@ -834,10 +844,41 @@
          .setTween(".paint-text01", {
              opacity: 1
          })
-         .addIndicators()
+         // .addIndicators()
          .addTo(controller);
 
 
+     //history 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger17",
+             duration: 1500,
+             offset: 420
+         })
+         .setPin(".viz-container")
+         // .addIndicators()
+         .addTo(controller);
 
+     //paint text 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger17",
+
+             offset: 50
+         })
+         .setTween("#viz-text", {
+             opacity: 1
+         })
+         // .addIndicators()
+         .addTo(controller);
+     //paint text 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger17",
+
+             offset: 650
+         })
+         .setTween("#my_dataviz", {
+             opacity: 1
+         })
+         // .addIndicators()
+         .addTo(controller);
 
  }

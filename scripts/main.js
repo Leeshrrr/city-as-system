@@ -848,7 +848,7 @@
          .addTo(controller);
 
 
-     //history 停留
+     //viz container 停留
      new ScrollMagic.Scene({
              triggerElement: "#trigger17",
              duration: 1500,
@@ -858,7 +858,7 @@
          // .addIndicators()
          .addTo(controller);
 
-     //paint text 变亮
+     //viz text 变亮
      new ScrollMagic.Scene({
              triggerElement: "#trigger17",
 
@@ -869,7 +869,7 @@
          })
          // .addIndicators()
          .addTo(controller);
-     //paint text 变亮
+     //viz chart 变亮
      new ScrollMagic.Scene({
              triggerElement: "#trigger17",
 
@@ -880,5 +880,17 @@
          })
          // .addIndicators()
          .addTo(controller);
+     //viz chart 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger17",
+
+             offset: 1500
+         })
+         .setTween(".viz-container", {
+             opacity: 0
+         })
+         // .addIndicators()
+         .addTo(controller);
+
 
  }

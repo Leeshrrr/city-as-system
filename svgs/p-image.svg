@@ -40,7 +40,7 @@
 <text id="ischemic heart disease" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="417.397" y="141.447">ischemic heart disease</tspan></text>
 <text id="stroke" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="529.232" y="186.153">stroke</tspan></text>
 </g>
-<text id="p-title1" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="21" y="13.977">Percentage caused by lead poisoning</tspan></text>
+<text id="p-title1" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="21" y="13.977">Percentage of case caused by lead poisoning</tspan></text>
 <text id="p-title2" fill="black" xml:space="preserve" style="white-space: pre" font-family="Merriweather" font-size="14" letter-spacing="0em"><tspan x="520.514" y="13.977">Disease</tspan></text>
 </g>
 </svg>

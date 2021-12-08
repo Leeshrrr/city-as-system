@@ -400,7 +400,7 @@ li.main-text {
 #house-text01 {
     position: absolute;
     left: 30%;
-    top: 450px;
+    top: 350px;
     opacity: 1;
 }
 
@@ -410,26 +410,26 @@ li.main-text {
 
 #h01 {
     position: absolute;
-    top: 10;
+    top: 30px;
     opacity: 0;
-    width: 80%;
-    left: 10%;
+    width: 60%;
+    left: 20%;
 }
 
 #h02 {
     position: absolute;
-    top: 50;
+    top: 30px;
     opacity: 0;
-    width: 80%;
-    left: 10%;
+    width: 60%;
+    left: 20%;
 }
 
 #h03 {
     position: absolute;
-    top: 50;
+    top: 30px;
     opacity: 0;
-    width: 80%;
-    left: 10%;
+    width: 60%;
+    left: 20%;
 }
 
 .svg-holder {

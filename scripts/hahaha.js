@@ -1,5 +1,5 @@
 async function loadMap() {
-    let mapraw = await fetch('./svgs/usa-ny.svg');
+    let mapraw = await fetch('./svgs/ny-map2.svg');
     //console.log(svgraw);
     let maptext = await mapraw.text();
     document.querySelector('.map-holder').innerHTML = maptext;
@@ -26,6 +26,7 @@ window.onload = function() {
 
 
     for (let i = 0; i < mapData.length; i++) {
+        // console.log(mapData[i].countyName);
         let colorNum = 255 - 255 * 7 * mapData[i].up5Per;
         const changeElement = document.getElementById(mapData[i].countyName);
         const countyName = document.querySelector(".county-name");

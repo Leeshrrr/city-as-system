@@ -43,10 +43,11 @@ body {
 
 .main-text {
     font-family: merri;
-    font-size: 21px;
+    font-size: 20px;
     line-height: 32px;
     width: 40%;
     margin: 20px auto 20px;
+    margin-left: auto;
 }
 
 .sub-title {
@@ -77,31 +78,6 @@ body {
 .divide06 {
     height: 200px;
 }
-
-.header {
-    position: fixed;
-    border-bottom: 2px dashed #FFFFFF;
-    width: 100%;
-    font-family: futuraMedium;
-    letter-spacing: 0.04em;
-    font-size: 30px;
-    /* background-color: #000000; */
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 30px
-}
-
-.menu {}
-
-.title {
-    font-family: futuraBold;
-    letter-spacing: 0em;
-    font-size: 36px;
-}
-
-.about {}
 
 .cover-image {
     position: absolute;
@@ -292,7 +268,13 @@ body {
 .underline01,
 .underline02,
 .underline03,
-.underline04 {
+.underline04,
+.underline05,
+.underline06,
+.underline07,
+.underline08,
+.underline09,
+.underline10 {
     background-image: linear-gradient(rgba(143, 9, 9, 0.5), rgba(143, 9, 9, 0.5));
     background-repeat: no-repeat;
     background-size: 0% 38%;
@@ -520,6 +502,7 @@ li.main-text {
     line-height: 15px;
     width: 40%;
     margin: auto;
+    opacity: 0;
 }
 
 .reference p {
@@ -530,4 +513,12 @@ li.main-text {
 .reference-title {
     font-family: sourceHanB;
     font-size: 16px;
+}
+
+#effort-text {
+    opacity: 0;
+}
+
+.evaluation-text01 {
+    opacity: 0;
 }

@@ -1,0 +1,91 @@
+.full-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.campaign-container {
+    width: 50%;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.campaign-box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-image: url('../images/f01.png');
+    background-size: cover;
+    border-radius: 20px;
+    overflow: hidden;
+    color: white;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+#c1 {
+    background-image: url('../images/c01.jpg');
+}
+
+#c2 {
+    background-image: url('../images/c02.png');
+}
+
+#c3 {
+    background-image: url('../images/c03.png');
+}
+
+#c4 {
+    background-image: url('../images/c04.png');
+}
+
+.campaign-box h2 {
+    font-size: 36px;
+    margin: 0 10px;
+    position: absolute;
+    top: 80%;
+    transition: 0.5s;
+}
+
+.campaign-box:hover h2 {
+    top: 35%
+}
+
+.campaign-box p {
+    font-size: 12px;
+    font-family: merri;
+    margin: 0 10px;
+    position: absolute;
+    top: 100%;
+    transition: 0.5s;
+    text-align: left;
+}
+
+.campaign-box:hover p {
+    top: 55%
+}
+
+.campaign-box:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+}
+
+.campaign-box:hover:before {
+    transform: scaleY(0.7);
+    transform-origin: bottom;
+    transition: 0.5s;
+    border-radius: 20px;
+}

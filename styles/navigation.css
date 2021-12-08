@@ -1,0 +1,54 @@
+.header {
+    position: fixed;
+    border-bottom: 2px dashed #FFFFFF;
+    width: 100%;
+    font-family: futuraMedium;
+    letter-spacing: 0.04em;
+    font-size: 30px;
+    /* background-color: #000000; */
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px
+}
+
+.header-menu {}
+
+.title {
+    font-family: futuraBold;
+    letter-spacing: 0em;
+    font-size: 30px;
+}
+
+.header-about {}
+
+.menu {
+    position: fixed;
+    border-right: 2px dashed #ffffff;
+    width: 20%;
+    height: 100%;
+    top: 60px;
+    left: -20%;
+    padding: 30px 30px;
+    transition: 0.2s ease-in;
+    z-index: 10;
+}
+
+.menu-contents {
+    font-family: futuraMedium;
+    letter-spacing: 0.04em;
+    font-size: 20px;
+    padding: 10px 0px;
+    color: #ffffff !important;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: justify;
+}

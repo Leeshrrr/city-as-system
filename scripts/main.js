@@ -92,11 +92,11 @@
          //.addIndicators()
          .addTo(controller);
 
-     // ebony text01 变亮
+     // ebony text02 变亮
      new ScrollMagic.Scene({
              triggerElement: "#trigger05",
              duration: 150,
-             offset: -300
+             offset: -100
          })
          .setTween(".ebony-text02", {
              opacity: 1
@@ -104,7 +104,7 @@
          //.addIndicators()
          .addTo(controller);
 
-     // ebony text01 变亮
+     // ebony text03 变亮
      new ScrollMagic.Scene({
              triggerElement: "#trigger05",
              duration: 150,
@@ -321,7 +321,32 @@
          // .addIndicators()
          .addTo(controller);
 
-     // 字 和 header边框 变浅色
+     // 字 和 header边框 变深色
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger06",
+             duration: 0,
+             offset: 1270
+         })
+         .setTween("a", {
+             color: "#000000"
+
+         })
+         //.addIndicators()
+         .addTo(controller);
+     // 字 和 header边框 变深色
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger06",
+             duration: 0,
+             offset: 1270
+         })
+         .setTween("a", {
+             color: "#000000"
+
+         })
+         //.addIndicators()
+         .addTo(controller);
+
+     // 字 和 header边框 变深色
      new ScrollMagic.Scene({
              triggerElement: "#trigger06",
              duration: 0,
@@ -345,6 +370,20 @@
          })
          //.addIndicators()
          .addTo(controller);
+
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger06",
+             duration: 0,
+             offset: 1270
+         })
+         .setTween(".menu", {
+             borderRightColor: "#000000"
+
+         })
+         //.addIndicators()
+         .addTo(controller);
+
+
 
 
      // 删除图片
@@ -892,5 +931,317 @@
          // .addIndicators()
          .addTo(controller);
 
+     //effort 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger18",
+             duration: 500,
+             offset: 300
+         })
+         .setPin("#pin15")
+         // .addIndicators()
+         .addTo(controller);
+
+     //effort 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger18",
+             duration: 400,
+             offset: 300
+         })
+         .setTween("#effort-text", {
+             opacity: 1
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger19",
+             duration: 500,
+             offset: 430
+         })
+         .setPin("#pin16")
+         // .addIndicators()
+         .addTo(controller);
+
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger19",
+             duration: 400,
+             offset: 1000
+         })
+         .setTween(".full-container", {
+             opacity: 0
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+     //reachout 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger20",
+             duration: 1000,
+             offset: 300
+         })
+         .setPin("#pin17")
+         // .addIndicators()
+         .addTo(controller);
+
+     // evaluation 01 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger20",
+             duration: 400,
+             offset: 400
+         })
+         .setTween(".evaluation-text01", {
+             opacity: 1
+         })
+         //.addIndicators()
+         .addTo(controller);
+
+     //reachout 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger21",
+             duration: 1000,
+             offset: 300
+         })
+         .setPin(".evaluation-text02")
+         // .addIndicators()
+         .addTo(controller);
+
+     // harm text01 变字体
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger21",
+             offset: 600
+         })
+         .setClassToggle(".highlight10", "active-highlight")
+         //  .addIndicators()
+         .addTo(controller);
+
+     // harm text01 下划线
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger21",
+             offset: 600
+         })
+         .setClassToggle(".underline05", "active-underline")
+         // .addIndicators()
+         .addTo(controller);
+
+
+     // harm text01 下划线
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger21",
+             offset: 750
+         })
+         .setClassToggle(".underline06", "active-underline")
+         //.addIndicators()
+         .addTo(controller);
+
+     //reachout 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger22",
+             duration: 1000,
+             offset: 300
+         })
+         .setPin(".evaluation-text03")
+         //  .addIndicators()
+         .addTo(controller);
+
+     // harm text01 变字体
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger22",
+             offset: 600
+         })
+         .setClassToggle(".highlight11", "active-highlight")
+         //.addIndicators()
+         .addTo(controller);
+
+     // harm text01 下划线
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger22",
+             offset: 750
+         })
+         .setClassToggle(".underline07", "active-underline")
+         //.addIndicators()
+         .addTo(controller);
+
+
+     // harm text01 下划线
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger22",
+             offset: 900
+         })
+         .setClassToggle(".underline08", "active-underline")
+         //.addIndicators()
+         .addTo(controller);
+
+     //reachout 停留
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger23",
+             duration: 1000,
+             offset: 300
+         })
+         .setPin(".evaluation-text04")
+         // .addIndicators()
+         .addTo(controller);
+
+
+     // harm text01 变字体
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger23",
+             offset: 600
+         })
+         .setClassToggle(".highlight12", "active-highlight")
+         // .addIndicators()
+         .addTo(controller);
+
+     // harm text01 下划线
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger23",
+             offset: 750
+         })
+         .setClassToggle(".underline09", "active-underline")
+         //.addIndicators()
+         .addTo(controller);
+
+     // harm text01 下划线
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger23",
+             offset: 900
+         })
+         .setClassToggle(".underline10", "active-underline")
+         //.addIndicators()
+         .addTo(controller);
+
+     // evaluation 01 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#trigger24",
+             duration: 400,
+             offset: 0
+         })
+         .setTween(".reference", {
+             opacity: 1
+         })
+         //.addIndicators()
+         .addTo(controller);
+
+
+
+
+
+
+
+     // evaluation 01 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#section1",
+
+
+         })
+         .setTween("#menu01 a", {
+             color: "#8f0909"
+         })
+         //  .addIndicators()
+         .addTo(controller);
+     // evaluation 01 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#section2",
+
+         })
+         .setTween("#menu02 a", {
+             color: "#8f0909"
+         })
+         //  .addIndicators()
+         .addTo(controller);
+
+
+     // evaluation 01 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#section3",
+
+
+         })
+         .setTween("#menu03 a", {
+             color: "#8f0909"
+         })
+         //   .addIndicators()
+         .addTo(controller);
+
+     new ScrollMagic.Scene({
+             triggerElement: "#section3",
+
+
+         })
+         .setTween("#menu02 a", {
+             color: "#000000"
+         })
+         //  .addIndicators()
+         .addTo(controller);
+
+     // evaluation 01 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#section4",
+
+
+         })
+         .setTween("#menu04 a", {
+             color: "#8f0909"
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+     new ScrollMagic.Scene({
+             triggerElement: "#section4",
+
+
+         })
+         .setTween("#menu03 a", {
+             color: "#000000"
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+     // evaluation 01 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#section5"
+
+
+         })
+         .setTween("#menu05 a", {
+             color: "#8f0909"
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+
+     new ScrollMagic.Scene({
+             triggerElement: "#section5"
+
+
+         })
+         .setTween("#menu04 a", {
+             color: "#000000"
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+     // evaluation 01 变亮
+     new ScrollMagic.Scene({
+             triggerElement: "#section6"
+
+
+         })
+         .setTween("#menu06 a", {
+             color: "#8f0909"
+         })
+         // .addIndicators()
+         .addTo(controller);
+
+
+     new ScrollMagic.Scene({
+             triggerElement: "#section6"
+
+
+         })
+         .setTween("#menu05 a", {
+             color: "#000000"
+         })
+         // .addIndicators()
+         .addTo(controller);
 
  }

@@ -19,8 +19,8 @@
     left: 3%;
     /* border: cadetblue 2px solid; */
     fill: rgb(255, 251, 244);
-    stroke: white;
-    stroke-width: 0.05px;
+    stroke: #f7f2ee;
+    stroke-width: 0.5px;
     width: 100%;
     display: block;
 }

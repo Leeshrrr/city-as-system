@@ -7,28 +7,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lead Pollution: A Failed System</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/hahaha.css">
+    <link rel="stylesheet" href="styles/anothertest.css">
+    <link rel="stylesheet" href="styles/sustain-add.css">
     <link rel="icon" type="image/png" href="images/icon.png">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.velocity.min.js" integrity="sha512-ulK7pbTIY9j6WjPyRImdSqhubR5JN+KRrpCCSalyjqImnZeloOHjVLuMVux4QHte+dtApVNFJDYO4FTCvLa8yA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.velocity.min.js" integrity="sha512-ulK7pbTIY9j6WjPyRImdSqhubR5JN+KRrpCCSalyjqImnZeloOHjVLuMVux4QHte+dtApVNFJDYO4FTCvLa8yA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles/hahaha.css">
-    <link rel="stylesheet" href="styles/anothertest.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.0.0/d3.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/ScrollToPlugin.min.js"></script> -->
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.0.0/d3.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
 </head>
 
 <body>
     <img class="cover-image" src="images/cover-image.png" alt="">
     <div class="header">
-        <div class="menu">Menu</div>
+        <div class="header-menu">Menu
+            <!-- <img class="menu-icon" src="images/menu-icon.svg" width="40px"> Menu -->
+        </div>
         <div class="title">Lead Pollution: A Failed System</div>
-        <div class="about">About</div>
+        <!-- <div class="header-about">About <img class="about-icon" src="images/menu-icon.svg" width="40px"></div> -->
+        <div class="header-about"> </div>
     </div>
+
+    <div id="headboard">
+        <div id="anchorlinks" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-easing="ease-in-sine" class="aos-init aos-animate">
+            <div class="menu">
+                <div class="menu-contents" id="menu01"><a href="#section1">Ebony’s story.</a></div>
+                <div class="menu-contents" id="menu02"><a href="#section2">Lead is an invisible killer.</a></div>
+                <div class="menu-contents" id="menu03"><a href="#section3">The continuing influence is the scariest thing, especially for children.</a></div>
+                <div class="menu-contents" id="menu04"><a href="#section4">We are still living in danger.</a></div>
+                <div class="menu-contents" id="menu05"><a href="#section5">People are keeping struggling with lead.</a></div>
+                <div class="menu-contents" id="menu06"><a href="#section6">Is eliminating lead poisoning the richs' game?</a></div>
+
+            </div>
+        </div>
+    </div>
+
 
     <div id="trigger01"></div>
 
@@ -42,7 +64,7 @@
     <div class="divide01"></div>
 
     <div id="trigger02"></div>
-
+    <a id="section1"></a>
     <div id="pin01" class="ebony-image">
         <img src="images/ebony.png" height=690px>
     </div>
@@ -112,8 +134,8 @@
 
     <div id="trigger08"></div>
     <div class="delete-image"></div>
-
-
+    <!-- <div id="section2" data-aos="fade-up" data-aos-anchor-placement="top-bottom"></div> -->
+    <a id="section2"></a>
     <div id="pin06">
         <div class="sub-title">
             Lead is
@@ -179,7 +201,7 @@
     <div class="divide03"></div>
 
 
-
+    <a id="section3"></a>
     <div id="trigger10"></div>
     <div id="pin08">
         <div class="sub-title">
@@ -195,8 +217,7 @@
 
         <div class="harm-text02">
             <div class="main-text">
-                Lead poisoning may cause many<span class="highlight03">symptoms</span> including<span class="underline02"> abdominal pain, constipation, headaches, irritability, memory problems, infertility, and tingling in the hands and feet</span> . In
-                severe cases,  <span class="underline02">anemia, seizures, coma, or death</span> may happen.
+                Lead poisoning may cause many <span class="highlight03">symptoms</span> including<span class="underline02"> abdominal pain, constipation, headaches, irritability, memory problems, infertility, and tingling in the hands and feet</span>                . In severe cases,  <span class="underline02">anemia, seizures, coma, or death</span> may happen.
             </div>
 
             <!-- <div class="main-text">Proportion of the total number of diseases due to lead exposure</div> -->
@@ -251,6 +272,7 @@
     </div>
 
     <div class="divide03"></div>
+    <a id="section4"></a>
     <div id="trigger13"></div>
     <div id="pin11">
         <div class="sub-title">
@@ -365,7 +387,7 @@
     </div>
 
 
-    <!-- <div class="divide01"></div> -->
+
     <div id="trigger12"></div>
     <div class="house" id="pin10">
         <img src="images/house01.png" id="h01" alt="">
@@ -393,7 +415,7 @@
         <div class="main-text" id="viz-text">
             It's not just the lead paint in New York's public housing that are at risk of lead poisoning. When plumbing fixtures that contain lead corrode, lead can enter drinking water, especially when the water has high acidity or low mineral content, which corrodes
             pipes and fixtures. The most common origins of lead in drinking water are lead pipes, faucets, and fixtures. Water originating from lead pipes connected to the water main, also known as lead service lines, is typically the main source of lead
-            in household water. Experts suspect that the drinking water in New York's public schools may also be tainted with lead. Lead contaminates public school drinking water through corroded lead pipes and fixtures, especially in buildings built
+            in household water. Expserts suspect that the drinking water in New York's public schools may also be tainted with lead. Lead contaminates public school drinking water through corroded lead pipes and fixtures, especially in buildings built
             before 1986.
         </div>
         <div id="my_dataviz"></div>
@@ -404,8 +426,139 @@
     <div class="divide01"></div>
     <!-- <div class="divide01"></div> -->
 
-    <div class="divide01"></div>
+    <!-- <div class="divide01"></div> -->
 
+
+    <a id="section5"></a>
+    <div id="trigger18"></div>
+    <div id="pin15">
+        <div class="sub-title">
+            People are keeping
+        </div>
+        <div class="sub-title">
+            struggling with lead.
+        </div>
+
+        <div class="main-text" id="effort-text">
+            A failed system cannot be left alone to continue its bad effects. People try to correct positive feedback loops from the opposite side. The governments and some organizations are looking for solutions to lead poisoning. Their actions range from solving
+            existing problems — lead cleanup campaigns — to correcting future path — education. Follow the links below to learn about their efforts.
+        </div>
+    </div>
+    <div id="trigger19"></div>
+    <div class="full-container" id="pin16">
+        <div class="campaign-container">
+            <a href="https://www.epa.gov/leadactionplanimplementation/epa-activities-reducing-lead-exposures">
+                <div class="campaign-box" id="c1">
+                    <h2>EPA</h2>
+                    <p>
+                        The United States Environmental Protection Agency has held a wide range of activities such as funding for community interventions and outreach, education and training, surveillance, and regulation and enforcement.
+                    </p>
+                </div>
+            </a>
+
+            <a href="http://www.dssgfellowship.org/wp-content/uploads/2016/04/p2039-potash.pdf">
+                <div class="campaign-box" id="c2">
+                    <h2>Uchicago Urban Lab</h2>
+                    <p>
+                        Uchicago Urban Lab and scholars from other universities do joint work with the Chicago Department of Public Health (CDPH) to build a model that predicts the risk of a child to being poisoned so that an intervention can take place before that happens.
+                    </p>
+                </div>
+            </a>
+
+            <a href="https://www.weact.org/campaigns/nyc-lead-outreach-campaign/">
+                <div class="campaign-box" id="c3">
+                    <h2>WE ACT</h2>
+                    <p>
+                        The NYC Lead Outreach Campaign, hold by WE ACT, soughts to increase public knowledge in New York City on childhood lead poisoning, its prevention, and the remedy of existing threats.
+                    </p>
+                </div>
+            </a>
+            <a href="https://www.who.int/campaigns/international-lead-poisoning-prevention-week">
+                <div class="campaign-box" id="c4">
+                    <h2>WHO</h2>
+                    <p>
+                        WHO make every last week of October to International Lead Poisoning Prevention Week to raise awareness about health effects of lead exposure and highlight the efforts of countries and partners to prevent lead exposure, particularly in children.
+                    </p>
+                </div>
+            </a>
+
+
+
+
+
+
+        </div>
+    </div>
+    <div class="divide05"></div>
+    <a id="section6"></a>
+    <div id="trigger20"></div>
+    <div id="pin17">
+        <div class="sub-title">
+            Is eliminating
+        </div>
+        <div class="sub-title">
+            lead poisoning
+        </div>
+        <div class="sub-title">
+            the richs' game?
+        </div>
+
+
+        <div class="evaluation-text01">
+            <div class="main-text">
+                Lead problem, like many other environmental issues, inevitably exposes under the effect of racism and classism.
+
+            </div>
+
+        </div>
+    </div>
+    <div id="trigger21"></div>
+    <div class="evaluation-text02">
+
+        <div class="main-text">
+            In 2019, the  Interdisciplinary Environmental Clinic at the Washington University School of Law provided a report to the community. Citing figures from 2016,  researchers reported that <span class="underline05"> Black children were “<span class = "highlight10"> 2.4 </span>times
+            more likely than white children </span>to test positive for lead in their blood and account for more than 70 percent of children found to suffer from lead poisoning.”
+        </div>
+        <div class="main-text">
+            University of Pennsylvania’s researcher Claudia López Lloreda’s report reveals that <span class="underline06"> children living in poverty suffer greater cognitive and physical effects from lead exposure than children from richer families</span>,
+            even if they live in the same area. Lead poisoning hits low-income children harder than their affluent neighbors.
+        </div>
+    </div>
+
+    <div id="trigger22"></div>
+    <div class="evaluation-text03">
+
+        <div class="main-text">
+            The best way to eliminate lead poisoning is <span class="highlight11">regular testing</span>. This allows early detection of symptoms of high blood lead and prompt treatment to prevent the subsequent effects. However, <span class="underline07">lood lead tests are expensive,
+            usually costing around $30 to $100</span>. This stops some families with low-income from getting their children tested for blood lead. But it is these families that are more likely to have high blood lead levels children because they often
+            live in old houses, public housing or in districts with serious pollution.
+        </div>
+        <div class="main-text">
+            And usually highly educated people have higher consciousness of prevention of lead poisoning. The <span class="underline07">low class and income families have no awareness and no energy to care for the children's blood lead level</span>, until
+            their children have shown the corresponding symptoms - usually means that lead has already been very deeply into their bodies - and will suffer in the whole life.
+
+        </div>
+    </div>
+
+    <div id="trigger23"></div>
+    <div class="evaluation-text04">
+
+        <div class="main-text">
+            The right thing we should do is to <span class="highlight12"> popularize the blood lead testing</span> to every family, and only by reducing the cost of blood lead testing can it be made widely available so that more families in need can get
+            their children tested. So we call on <span class="underline09">testing institutions to provide affordable blood lead tests</span> , and we also call on <span class="underline10"> public interest organizations to sponsor the tests</span>. At
+            the same time, efforts are under way to make blood lead testing fully covered by health insurance. Pennsylvania Insurance Commissioner Teresa Miller said, medical tests for lead exposure must be covered fully by health insurance as a preventative
+            service for children.
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="divide01"></div>
+    <div id="trigger24"></div>
     <div class="reference">
         <div class="divide-line"></div>
         <div class="reference-title">Reference</div>
@@ -472,9 +625,14 @@
     <div class="svg-holder1"></div> -->
 
     <!-- <script src="scripts/load-svg.js"></script> -->
-
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script> -->
     <script src="scripts/main.js"></script>
     <script src="scripts/svg-animation.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="http://scrollmagic.io/assets/js/lib/greensock/plugins/ScrollToPlugin.min.js"></script>
 
 </body>
 
